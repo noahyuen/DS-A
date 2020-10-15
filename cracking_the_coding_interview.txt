@@ -92,7 +92,10 @@
             - The inner For-Loop iterates through N-1, N-2, N-3... N-(N - 1) elements
                 - The average of the elements the inner For-Loop iterates through is N/2
                     - Therefore the overall time complexity is O(N ** 2 / 2) == O(N ** 2)
-        4. 
+        4. If outer for-loop iterates through A elements and inner for-loop iterates through B elements then time complexity is O(AB) != O(N ** 2)
+        5. Drop Constants O(AB * 100000) == O(AB)
+        6. Drop Constants O(N / 2) == O(N), ex: reversing an array
+        7. Which elements are equivalent to O(N)
 
 
 
