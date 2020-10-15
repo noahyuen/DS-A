@@ -1,0 +1,47 @@
+1. The Interview Process
+    - Assessment based on:
+        - Analytical skills
+        - Coding skills
+        - Technical skills/computer science fundamentals
+        - Experience
+        - Culture fit/communication skills
+    - * practice whiteboarding algorithms
+        - don't just write seudocode
+
+2. Behind the Scenes
+    - The Microsoft Interview
+        - Microsoft wants smart people, geeks, people who are passionate about technology
+    - The Amazon Interview:
+        - emphasis on scalability, system design, object-oriented programming
+    - The Google Interview:
+        - emphasis on designing scalable systems, analytical (algorithm) skills
+    - The Apple Interview
+    - The Facebook Interview
+
+3. Special Situations:
+    - Product (and Program) Management
+    - Startups
+
+4. Before the Interview
+    - re-writing resume
+
+5. Behavioral Questions
+    - Go through each of the projects or components of your resume and ensure that you can talk about them in detail. *use the grid
+      in the book to guide your answers
+      - make sure to have one to three projects that you can talk about in detail
+        - talk about the technical components in depth and the role you played in the projects
+    - Questions to ask the interviewer:
+        - Genuine questions:
+            - questions that you actually want to know the answers to
+        - Insightful question:
+            - questions that demonstrate your knowledge or understanding of technology
+        - Passion questions:
+            - demonstrate your passion for technology and show that you're interested in learning and will be a strong contributor to the company
+    - Answering Behavioral Questions
+
+6. Big O (38-59):
+    - Big O time is the language and metric we use to describe the efficiency of algorithms
+    - Understanding this will enable you to judge when your algorithm is getter faster or slower
+    - *Master this concept
+    
+    
