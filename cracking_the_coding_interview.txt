@@ -77,6 +77,25 @@
             - Where k in the number of steps: 2 ** k = Nested
         - * When you see a problem where the number of elements in the problem space gets halved each time, that will likely be O(log N) runtime
     H. Recursive Runtimes
-        
+        - ex: a recursive algorithm that calls itself twice
+        - Picture all of the functions calls in a tree, the tree will have depth N. Each node has two children, therefore each level will have twice
+          as many calls as the one above it.
+        - *When you have a recursive function that makes multiple calls, the runtime will often (but not always) look like O(branches ** depth),
+          where branches is the number of times each recursive call branches. For the example, this gives us (2 ** N). 
+        - The space complexity of this algorithm will be O(N). Although we have O(2 ** N) nodes in the tree total, only O(N) exist at any given time. 
+          Therefore, we only need to have O(N) memory available.
+    I. Examples and Exercises
+        1. Sequential For-Loops: O(N)
+        2. Nested For-Loops: O(N ** 2)
+        3. Nested For-Loops but inner For-Loop starts at i + 1 (instead of 0).
+            - The outer For-Loop iterates over N elements
+            - The inner For-Loop iterates through N-1, N-2, N-3... N-(N - 1) elements
+                - The average of the elements the inner For-Loop iterates through is N/2
+                    - Therefore the overall time complexity is O(N ** 2 / 2) == O(N ** 2)
+        4. 
+
+
+
+
     
     
