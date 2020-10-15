@@ -45,5 +45,19 @@
     - *Master this concept
     A. Time Complexity
         - Big O, Big Theta, Big Omega
+            - Big O: describes the upper bound on the time of an algorithm
+            - Big Omega: describes the lower bound, fastest case of an algorithm
+            - Big Theta: describes both O and Omega, gives a tight bound on runtime
+        - Best Case, Worst Case, Expected Case
+            ex: Quick Sort (list sorted around pivot value)
+            - Best Case: If all elements are equal, then quick sort will, on average, just traverse through the array once. This is O(N) (depending on the implementation).
+            - Worst Case: If we get unlucky and the pivot is repeatedly the largest element in the array, then our recursion doesn't divide the array in half
+              and recurse on each half. It just shrink the array by one element. This will degenerate runtime to O(N**2).
+            - Expected Case: We can expect a runtime of O(N log N).
+            - *For most algorithms, the worst case and expected case are the same. 
+    B. Space Complexity (memory or space required by an algorithm)
+    C. Drop the Constants
+    D. Drop the Non-Dominant Terms
+    E. Multi-Part Algorithms: Add vs. Multiply
     
     
