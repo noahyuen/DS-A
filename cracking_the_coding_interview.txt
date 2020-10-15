@@ -43,5 +43,7 @@
     - Big O time is the language and metric we use to describe the efficiency of algorithms
     - Understanding this will enable you to judge when your algorithm is getter faster or slower
     - *Master this concept
+    A. Time Complexity
+        - Big O, Big Theta, Big Omega
     
     
