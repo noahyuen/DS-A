@@ -96,6 +96,35 @@
         5. Drop Constants O(AB * 100000) == O(AB)
         6. Drop Constants O(N / 2) == O(N), ex: reversing an array
         7. Which elements are equivalent to O(N)
+        8. An algorithm that takes in an array of strings, sorts each string, then sorts the full array
+            - * make sure to treat the length of the string and the length of the array as two different variables
+                - Let s be the length of the longest string
+                - Let a be the length of the array
+            - Sorting each string is O(s log s)
+                - We have to do this for every string in the array, so that's O(a * s log s)
+            - Now we have to sort all of the strings
+                - Each string comparison takes O(s) time
+                - There are O(a log a) comparisons
+                - Therefore sorting all of the strings will take O(s * a log a) time
+            - Adding the two parts together: O(a * s log s) + O(s * a log a) = O(a*s(log a + log s)).
+        9. Algorithm that sums the values of all the nodes in a balanced binary search tree
+            - code:
+            int sum(Node node) {
+                if (node == null) {
+                    return 0;
+                }
+                return sum(node.left) + node.value + sum(node.right);
+            }
+            - *Just because it's a binary search tree doesn't mean that there is a log in it!
+            - The first part to think about is that the code touches each node in the tree once, and performs a constant time amount of work
+              with each "touch" (excluding the recursive calls)
+            - *Recall that the runtime of a recursive function with multiple branches is typically O(branches**depth).
+                - There are two branches at each call, so we're looking at O(2 ** depth)
+            - The depth of a balanced binary search tree is roughly log N, for N total nodes
+            - Therefore the runtime is O(2 ** logn)
+            - And O(2 ** log2n) == O(N)
+        10. 
+
 
 
 
