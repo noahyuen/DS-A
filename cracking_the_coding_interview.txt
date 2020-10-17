@@ -123,7 +123,20 @@
             - The depth of a balanced binary search tree is roughly log N, for N total nodes
             - Therefore the runtime is O(2 ** logn)
             - And O(2 ** log2n) == O(N)
-        10. 
+        10. Method that checks if a number is prime by checking for divisibility on numbers up to the square root of n.
+            - code:
+            boolean isPrime(int n) {
+                for (int x = 2; x * x <= n, x++) {
+                    if (n % x == 0) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            - The work inside of the for-loop is constant, so all we need to know if the number of iterations
+            - The maximum number of iterations if n ** (1/2)
+            - Therefore this runs in O(n ** 1/2) time
+
 
 
 
