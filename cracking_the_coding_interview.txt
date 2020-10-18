@@ -136,6 +136,10 @@
             - The work inside of the for-loop is constant, so all we need to know if the number of iterations
             - The maximum number of iterations if n ** (1/2)
             - Therefore this runs in O(n ** 1/2) time
+        11. Method that computes n!
+            - This is just a straight recursion from n to n-1 to n-2, down to 1. It will take O(N)
+        12. Algorithm that counts all permutations of a string
+            
 
 
 
