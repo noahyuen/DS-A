@@ -139,6 +139,41 @@
         11. Method that computes n!
             - This is just a straight recursion from n to n-1 to n-2, down to 1. It will take O(N)
         12. Algorithm that counts all permutations of a string
+    J. Technical Questions  
+        1. Walking Through a problem
+            1. Listen Carefully
+                - mentally record any unique information in the problem statement
+                    - ask questions to clarify
+            2. Draw an example
+                - make it specific, using real numbers or strings (if applicable to the problem)
+                - make it sufficiently large, small example are usually special/edge cases
+            3. State a brute force implementation from which you can optimize
+            4. Optimize        
+                - Look for any unused information from the problem statement (sorted v. unsorted arrays)
+                - Use a fresh example to help you see a pattern in the problem
+                - Make time vs. space tradeoff. Sometimes storing extra state about the problem can help you optimize the runtime
+                - Use a hash table
+                - Think about the best conceivable runtime
+            5. Walk Through
+                - Solidify your understanding of the algorithm
+                - Know what the variables are and when they change
+            6. Implement 
+                - Modularize your code
+                - Implement error checks 
+                - Good variable names
+                    - use long variable names to specify use where needed
+            7. Test
+                - Start with a "conceptual" test. A conceptual test means just reading and analyzing what each line of code does. 
+                  Think about it like you're explaining the lines of code for a code reviewer. Does the code do what you think it should do?
+                - Check syntactically "weird" code
+                - Check "hot spots" such as base cases in recursive code, integer division, null nodes in binary trees, 
+                  start and end of iteration through a linked list
+                - Write small test cases
+                - Write special/edge test cases
+
+
+
+    
             
 
 
